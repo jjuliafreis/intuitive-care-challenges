@@ -1,0 +1,64 @@
+# ============================================
+# Intuitive Care - .gitignore
+# ============================================
+
+# ---------- Java / Maven ----------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ---------- Python ----------
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+pip-log.txt
+
+# ---------- Node.js / Frontend ----------
+node_modules/
+dist/
+.vite/
+*.local
+
+# ---------- IDEs e Editores ----------
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- Arquivos de Dados (downloads/temp) ----------
+desafio-1-integracao-api/downloads/
+desafio-2-transformacao/temp/
+
+# ---------- Banco de Dados Local ----------
+*.sqlite
+*.sqlite3
+
+# ---------- Arquivos de Saída (opcional - mantenha se quiser versionar) ----------
+# desafio-1-integracao-api/output/
+# desafio-1-integracao-api/extraidos/
+# desafio-2-transformacao/output/
+
+# ---------- Outros ----------
+*.bak
+*.tmp
+*.temp
+.cache/

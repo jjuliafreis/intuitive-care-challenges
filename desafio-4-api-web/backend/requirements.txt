@@ -1,0 +1,31 @@
+# Desafio 4 - API e Interface Web
+# Requisitos Python
+
+# Framework Web
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Banco de Dados
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9  # PostgreSQL
+# mysql-connector-python==8.3.0  # Alternativa para MySQL
+
+# Validação e Serialização
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# CSV Processing
+pandas==2.1.4
+
+# Cache
+cachetools==5.3.2
+
+# CORS
+python-multipart==0.0.6
+
+# Testes
+pytest==7.4.4
+httpx==0.26.0
+
+# Utilitários
+python-dotenv==1.0.0
